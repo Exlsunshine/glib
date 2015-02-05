@@ -52,7 +52,6 @@ struct _GDBusObjectSkeleton
 
 /**
  * GDBusObjectSkeletonClass:
- * @parent_class: The parent class.
  * @authorize_method: Signal class handler for the #GDBusObjectSkeleton::authorize-method signal.
  *
  * Class structure for #GDBusObjectSkeleton.

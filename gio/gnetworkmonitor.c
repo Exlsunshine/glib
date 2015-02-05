@@ -50,7 +50,6 @@
 
 /**
  * GNetworkMonitorInterface:
- * @g_iface: The parent interface.
  * @network_changed: the virtual function pointer for the
  *  GNetworkMonitor::network-changed signal.
  * @can_reach: the virtual function pointer for g_network_monitor_can_reach()

@@ -52,7 +52,6 @@ struct _GDBusObjectProxy
 
 /**
  * GDBusObjectProxyClass:
- * @parent_class: The parent class.
  *
  * Class structure for #GDBusObjectProxy.
  *

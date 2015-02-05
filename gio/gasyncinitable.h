@@ -47,7 +47,6 @@ typedef struct _GAsyncInitableIface GAsyncInitableIface;
 
 /**
  * GAsyncInitableIface:
- * @g_iface: The parent interface.
  * @init_async: Starts initialization of the object.
  * @init_finish: Finishes initialization of the object.
  *

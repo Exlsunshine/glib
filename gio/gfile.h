@@ -49,7 +49,6 @@ typedef struct _GFileIface    		GFileIface;
 
 /**
  * GFileIface:
- * @g_iface: The parent interface.
  * @dup: Duplicates a #GFile.
  * @hash: Creates a hash of a #GFile.
  * @equal: Checks equality of two given #GFiles.

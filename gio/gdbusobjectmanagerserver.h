@@ -52,7 +52,6 @@ struct _GDBusObjectManagerServer
 
 /**
  * GDBusObjectManagerServerClass:
- * @parent_class: The parent class.
  *
  * Class structure for #GDBusObjectManagerServer.
  *

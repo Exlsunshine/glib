@@ -53,7 +53,6 @@ typedef struct _GAppLaunchContextPrivate GAppLaunchContextPrivate;
 
 /**
  * GAppInfoIface:
- * @g_iface: The parent interface.
  * @dup: Copies a #GAppInfo.
  * @equal: Checks two #GAppInfos for equality.
  * @get_id: Gets a string identifier for a #GAppInfo.

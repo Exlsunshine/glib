@@ -36,7 +36,6 @@ typedef struct _GTlsClientConnectionInterface GTlsClientConnectionInterface;
 
 /**
  * GTlsClientConnectionInterface:
- * @g_iface: The parent interface.
  *
  * vtable for a #GTlsClientConnection implementation.
  *

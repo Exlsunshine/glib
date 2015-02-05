@@ -43,7 +43,6 @@ typedef struct _GSeekableIface   GSeekableIface;
 
 /**
  * GSeekableIface:
- * @g_iface: The parent interface.
  * @tell: Tells the current location within a stream.
  * @can_seek: Checks if seeking is supported by the stream.
  * @seek: Seeks to a location within a stream.

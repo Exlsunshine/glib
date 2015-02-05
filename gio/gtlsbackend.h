@@ -45,7 +45,6 @@ typedef struct _GTlsBackendInterface GTlsBackendInterface;
 
 /**
  * GTlsBackendInterface:
- * @g_iface: The parent interface.
  * @supports_tls: returns whether the backend supports TLS.
  * @get_default_database: returns a default #GTlsDatabase instance.
  * @get_certificate_type: returns the #GTlsCertificate implementation type

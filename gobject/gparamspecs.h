@@ -609,7 +609,6 @@ typedef struct _GParamSpecVariant    GParamSpecVariant;
 
 /**
  * GParamSpecChar:
- * @parent_instance: private #GParamSpec portion
  * @minimum: minimum value for the property specified
  * @maximum: maximum value for the property specified
  * @default_value: default value for the property specified
@@ -626,7 +625,6 @@ struct _GParamSpecChar
 };
 /**
  * GParamSpecUChar:
- * @parent_instance: private #GParamSpec portion
  * @minimum: minimum value for the property specified
  * @maximum: maximum value for the property specified
  * @default_value: default value for the property specified
@@ -643,7 +641,6 @@ struct _GParamSpecUChar
 };
 /**
  * GParamSpecBoolean:
- * @parent_instance: private #GParamSpec portion
  * @default_value: default value for the property specified
  * 
  * A #GParamSpec derived structure that contains the meta data for boolean properties.
@@ -656,7 +653,6 @@ struct _GParamSpecBoolean
 };
 /**
  * GParamSpecInt:
- * @parent_instance: private #GParamSpec portion
  * @minimum: minimum value for the property specified
  * @maximum: maximum value for the property specified
  * @default_value: default value for the property specified
@@ -673,7 +669,6 @@ struct _GParamSpecInt
 };
 /**
  * GParamSpecUInt:
- * @parent_instance: private #GParamSpec portion
  * @minimum: minimum value for the property specified
  * @maximum: maximum value for the property specified
  * @default_value: default value for the property specified
@@ -690,7 +685,6 @@ struct _GParamSpecUInt
 };
 /**
  * GParamSpecLong:
- * @parent_instance: private #GParamSpec portion
  * @minimum: minimum value for the property specified
  * @maximum: maximum value for the property specified
  * @default_value: default value for the property specified
@@ -707,7 +701,6 @@ struct _GParamSpecLong
 };
 /**
  * GParamSpecULong:
- * @parent_instance: private #GParamSpec portion
  * @minimum: minimum value for the property specified
  * @maximum: maximum value for the property specified
  * @default_value: default value for the property specified
@@ -724,7 +717,6 @@ struct _GParamSpecULong
 };
 /**
  * GParamSpecInt64:
- * @parent_instance: private #GParamSpec portion
  * @minimum: minimum value for the property specified
  * @maximum: maximum value for the property specified
  * @default_value: default value for the property specified
@@ -741,7 +733,6 @@ struct _GParamSpecInt64
 };
 /**
  * GParamSpecUInt64:
- * @parent_instance: private #GParamSpec portion
  * @minimum: minimum value for the property specified
  * @maximum: maximum value for the property specified
  * @default_value: default value for the property specified
@@ -758,7 +749,6 @@ struct _GParamSpecUInt64
 };
 /**
  * GParamSpecUnichar:
- * @parent_instance: private #GParamSpec portion
  * @default_value: default value for the property specified
  * 
  * A #GParamSpec derived structure that contains the meta data for unichar (unsigned integer) properties.
@@ -771,7 +761,6 @@ struct _GParamSpecUnichar
 };
 /**
  * GParamSpecEnum:
- * @parent_instance: private #GParamSpec portion
  * @enum_class: the #GEnumClass for the enum
  * @default_value: default value for the property specified
  * 
@@ -787,7 +776,6 @@ struct _GParamSpecEnum
 };
 /**
  * GParamSpecFlags:
- * @parent_instance: private #GParamSpec portion
  * @flags_class: the #GFlagsClass for the flags
  * @default_value: default value for the property specified
  * 
@@ -803,7 +791,6 @@ struct _GParamSpecFlags
 };
 /**
  * GParamSpecFloat:
- * @parent_instance: private #GParamSpec portion
  * @minimum: minimum value for the property specified
  * @maximum: maximum value for the property specified
  * @default_value: default value for the property specified
@@ -823,7 +810,6 @@ struct _GParamSpecFloat
 };
 /**
  * GParamSpecDouble:
- * @parent_instance: private #GParamSpec portion
  * @minimum: minimum value for the property specified
  * @maximum: maximum value for the property specified
  * @default_value: default value for the property specified
@@ -843,7 +829,6 @@ struct _GParamSpecDouble
 };
 /**
  * GParamSpecString:
- * @parent_instance: private #GParamSpec portion
  * @default_value: default value for the property specified
  * @cset_first: a string containing the allowed values for the first byte
  * @cset_nth: a string containing the allowed values for the subsequent bytes
@@ -867,7 +852,6 @@ struct _GParamSpecString
 };
 /**
  * GParamSpecParam:
- * @parent_instance: private #GParamSpec portion
  * 
  * A #GParamSpec derived structure that contains the meta data for %G_TYPE_PARAM
  * properties.
@@ -878,7 +862,6 @@ struct _GParamSpecParam
 };
 /**
  * GParamSpecBoxed:
- * @parent_instance: private #GParamSpec portion
  * 
  * A #GParamSpec derived structure that contains the meta data for boxed properties.
  */
@@ -888,7 +871,6 @@ struct _GParamSpecBoxed
 };
 /**
  * GParamSpecPointer:
- * @parent_instance: private #GParamSpec portion
  * 
  * A #GParamSpec derived structure that contains the meta data for pointer properties.
  */
@@ -898,7 +880,6 @@ struct _GParamSpecPointer
 };
 /**
  * GParamSpecValueArray:
- * @parent_instance: private #GParamSpec portion
  * @element_spec: a #GParamSpec describing the elements contained in arrays of this property, may be %NULL
  * @fixed_n_elements: if greater than 0, arrays of this property will always have this many elements
  * 
@@ -912,7 +893,6 @@ struct _GParamSpecValueArray
 };
 /**
  * GParamSpecObject:
- * @parent_instance: private #GParamSpec portion
  * 
  * A #GParamSpec derived structure that contains the meta data for object properties.
  */
@@ -942,7 +922,6 @@ struct _GParamSpecOverride
 };
 /**
  * GParamSpecGType:
- * @parent_instance: private #GParamSpec portion
  * @is_a_type: a #GType whose subtypes can occur as values
  * 
  * A #GParamSpec derived structure that contains the meta data for #GType properties.
@@ -956,7 +935,6 @@ struct _GParamSpecGType
 };
 /**
  * GParamSpecVariant:
- * @parent_instance: private #GParamSpec portion
  * @type: a #GVariantType, or %NULL
  * @default_value: a #GVariant, or %NULL
  *

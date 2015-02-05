@@ -52,7 +52,6 @@ struct _GDBusObjectManagerClient
 
 /**
  * GDBusObjectManagerClientClass:
- * @parent_class: The parent class.
  * @interface_proxy_signal: Signal class handler for the #GDBusObjectManagerClient::interface-proxy-signal signal.
  * @interface_proxy_properties_changed: Signal class handler for the #GDBusObjectManagerClient::interface-proxy-properties-changed signal.
  *

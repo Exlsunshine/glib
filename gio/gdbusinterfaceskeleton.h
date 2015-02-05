@@ -52,7 +52,6 @@ struct _GDBusInterfaceSkeleton
 
 /**
  * GDBusInterfaceSkeletonClass:
- * @parent_class: The parent class.
  * @get_info: Returns a #GDBusInterfaceInfo. See g_dbus_interface_skeleton_get_info() for details.
  * @get_vtable: Returns a #GDBusInterfaceVTable. See g_dbus_interface_skeleton_get_vtable() for details.
  * @get_properties: Returns a #GVariant with all properties. See g_dbus_interface_skeleton_get_properties().

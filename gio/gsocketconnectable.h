@@ -41,7 +41,6 @@ typedef struct _GSocketConnectableIface GSocketConnectableIface;
 
 /**
  * GSocketConnectableIface:
- * @g_iface: The parent interface.
  * @enumerate: Creates a #GSocketAddressEnumerator
  * @proxy_enumerate: Creates a #GProxyAddressEnumerator
  *

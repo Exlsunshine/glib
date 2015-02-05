@@ -43,7 +43,6 @@ typedef struct _GPollableOutputStreamInterface GPollableOutputStreamInterface;
 
 /**
  * GPollableOutputStreamInterface:
- * @g_iface: The parent interface.
  * @can_poll: Checks if the #GPollableOutputStream instance is actually pollable
  * @is_writable: Checks if the stream is writable
  * @create_source: Creates a #GSource to poll the stream

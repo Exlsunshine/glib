@@ -57,7 +57,6 @@ struct _GTypeModule
 
 /**
  * GTypeModuleClass:
- * @parent_class: the parent class
  * @load: loads the module and registers one or more types using
  *  g_type_module_register_type().
  * @unload: unloads the module

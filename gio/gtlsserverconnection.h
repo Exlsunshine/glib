@@ -44,7 +44,6 @@ typedef struct _GTlsServerConnectionInterface GTlsServerConnectionInterface;
 
 /**
  * GTlsServerConnectionInterface:
- * @g_iface: The parent interface.
  *
  * vtable for a #GTlsServerConnection implementation.
  *

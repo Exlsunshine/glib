@@ -43,7 +43,6 @@ typedef struct _GPollableInputStreamInterface GPollableInputStreamInterface;
 
 /**
  * GPollableInputStreamInterface:
- * @g_iface: The parent interface.
  * @can_poll: Checks if the #GPollableInputStream instance is actually pollable
  * @is_readable: Checks if the stream is readable
  * @create_source: Creates a #GSource to poll the stream

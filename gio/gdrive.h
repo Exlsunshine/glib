@@ -37,7 +37,6 @@ G_BEGIN_DECLS
 
 /**
  * GDriveIface:
- * @g_iface: The parent interface.
  * @changed: Signal emitted when the drive is changed.
  * @disconnected: The removed signal that is emitted when the #GDrive have been disconnected. If the recipient is holding references to the object they should release them so the object can be finalized.
  * @eject_button: Signal emitted when the physical eject button (if any) of a drive have been pressed.

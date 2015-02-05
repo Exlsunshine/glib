@@ -32,7 +32,6 @@ typedef struct _GTlsFileDatabaseInterface GTlsFileDatabaseInterface;
 
 /**
  * GTlsFileDatabaseInterface:
- * @g_iface: The parent interface.
  *
  * Provides an interface for #GTlsFileDatabase implementations.
  *

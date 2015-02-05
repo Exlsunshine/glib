@@ -57,7 +57,6 @@ typedef struct _GProxyInterface GProxyInterface;
 
 /**
  * GProxyInterface:
- * @g_iface: The parent interface.
  * @connect: Connect to proxy server and wrap (if required) the #connection
  *           to handle payload.
  * @connect_async: Same as connect() but asynchronous.

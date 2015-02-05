@@ -45,7 +45,6 @@ typedef struct _GAsyncResultIface    GAsyncResultIface;
 
 /**
  * GAsyncResultIface:
- * @g_iface: The parent interface.
  * @get_user_data: Gets the user data passed to the callback.
  * @get_source_object: Gets the source object that issued the asynchronous operation.
  * @is_tagged: Checks if a result is tagged with a particular source.

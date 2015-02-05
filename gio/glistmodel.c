@@ -84,7 +84,6 @@ G_DEFINE_INTERFACE (GListModel, g_list_model, G_TYPE_OBJECT);
 
 /**
  * GListModelInterface:
- * @g_iface: parent #GTypeInterface
  * @get_item_type: the virtual function pointer for g_list_model_get_item_type()
  * @get_n_items: the virtual function pointer for g_list_model_get_n_items()
  * @get_item: the virtual function pointer for g_list_model_get_item()

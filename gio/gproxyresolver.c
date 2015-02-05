@@ -43,7 +43,6 @@
 
 /**
  * GProxyResolverInterface:
- * @g_iface: The parent interface.
  * @is_supported: the virtual function pointer for g_proxy_resolver_is_supported()
  * @lookup: the virtual function pointer for g_proxy_resolver_lookup()
  * @lookup_async: the virtual function pointer for

@@ -46,7 +46,6 @@ typedef struct _GInitableIface GInitableIface;
 
 /**
  * GInitableIface:
- * @g_iface: The parent interface.
  * @init: Initializes the object.
  *
  * Provides an interface for initializing object such that initialization

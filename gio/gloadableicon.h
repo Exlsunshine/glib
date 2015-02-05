@@ -44,7 +44,6 @@ typedef struct _GLoadableIconIface    		GLoadableIconIface;
 
 /**
  * GLoadableIconIface:
- * @g_iface: The parent interface.
  * @load: Loads an icon.
  * @load_async: Loads an icon asynchronously.
  * @load_finish: Finishes an asynchronous icon load.
